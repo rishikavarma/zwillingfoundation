@@ -1,0 +1,47 @@
+
+
+body {
+  font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+}
+
+.topnav {
+  /*background-color: #F70C0C;*/
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color:  black;
+  text-align: center;
+  padding: 14px 70px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  color:#F70C0C;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  /*background-color: #FCFCFC;*/
+  color:#F70C0C ;
+}
+
+
+.bottomright {
+  position: absolute;
+  top: 62px;
+  left: 16px;
+  font-size: 75px;
+  color:#F70C0C;
+}
+.bottomright2 {
+  position: absolute;
+  top: 155px;
+  left: 50px;
+  font-size: 30px;
+  color:black;
+}
