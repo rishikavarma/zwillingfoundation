@@ -2,7 +2,11 @@
 
 body {
   font-family: Helvetica, "Trebuchet MS", Verdana, sans-serif;
+  background-image: linear-gradient(rgba(62, 20, 20, 0.4), rgba(62, 20, 20, 0.4)), url(../images/background.jpg);
+    background-size: cover;
+    
 }
+
 
 .topnav {
   /*background-color: #F70C0C;*/
