@@ -22,7 +22,7 @@ nav{
 .logo img{float:left;}
 
 .navbar a{
-  color:black;
+  color:white;
   display: inline-block; 
   text-decoration: none;
   padding-right:100px; 
@@ -47,7 +47,7 @@ nav{
   overflow: hidden;
 }
 .contact .dropbtn {
-  color:black;
+  color:white;
   display: inline-block; 
   text-decoration: none;
   padding-right:100px;   
@@ -64,9 +64,25 @@ nav{
    color:red;
 }
 
+.blurbox{
+   background-color: rgba(0,0,0, 0.4);
+   color: white;
+  position: relative;
+  left: 50px;
+  width: 1500px;
+  height: 600px;
+  padding: 50px;
+  /*border: 1px solid red;*/
+  top:100px;
+  
+}
 
-
-
+.blurbox h1{
+  color: red;
+}
+.blurbox p{  
+  font-size: 20px;
+}
 /* Dropdown content (hidden by default) */
 .dropdown-content {
   display: none;
