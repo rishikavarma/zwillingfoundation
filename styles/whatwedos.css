@@ -70,27 +70,52 @@ nav{
   position: relative;
   left: 50px;  
   height: 1100px;
+  width:1600px;
   padding: 50px;
   top:100px;
   margin-bottom: 50px;
-  margin-right:100px;
+  margin-right:50px;
   text-align: justify;
 }
+
 .skilltraining{
   margin: 20px;
+}
+.skilltraining .text{  
   width:800px;
-
+}
+.skilltraining .pic{  
+  position: absolute;
+  top:75px;
+  left:1020px;
 }
 .godchildren{
   margin: 20px;
+}
+.godchildren .text{
   width:800px;
+
+}
+.godchildren .pic{
+   position: absolute;
+  top:875px;
+  left:1020px;
 
 }
 .livelihood{
   margin: 20px;
+  
+}
+.livelihood .text{
   width:800px;
   position: relative;
   left:700px;
+}
+.livelihood .pic{
+  width:800px;
+  position: absolute;
+  top:590px;
+  left:70px;
 }
 .blurbox h1{
   font-size:25px;
